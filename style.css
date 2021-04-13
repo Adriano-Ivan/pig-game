@@ -22,6 +22,10 @@ main {
   height: 95vh;
 }
 
+.winner {
+  background-color: #222;
+  color: blue;
+}
 .active--player {
   background-color: rgb(224, 30, 69);
 }
