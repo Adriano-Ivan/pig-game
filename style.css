@@ -79,14 +79,14 @@ main {
   justify-content: center;
 }
 
-#total-display-1,
-#total-display-2 {
+#total-display-0,
+#total-display-1 {
   margin-top: 25px;
   font-size: 2em;
 }
 
-#score-display-1,
-#score-display-2 {
+#score-display-0,
+#score-display-1 {
   margin-top: 25px;
   font-size: 2em;
 }
