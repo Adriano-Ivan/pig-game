@@ -6,4 +6,127 @@
 body {
   margin: 0;
   min-width: 100vh;
+  background-color: rgb(192, 93, 6);
+  display: flex;
+  justify-content: center;
+  font-family: Arial;
+  align-items: center;
+}
+
+main {
+  display: flex;
+  position: relative;
+  width: 75%;
+  margin-top: 2vh;
+  border-radius: 15px;
+  height: 95vh;
+}
+
+.active--player {
+  background-color: rgb(224, 30, 69);
+}
+.inactive--player {
+  background-color: #ffa;
+}
+#player-1 {
+  width: 50%;
+  height: inherit;
+  border-top-left-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom-left-radius: 15px;
+}
+
+#player-2 {
+  width: 50%;
+  height: inherit;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.total--score {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  font-size: 31px;
+  background-color: #fff;
+  color: #000;
+  padding: 30px;
+  border-radius: 100px;
+}
+
+.title {
+  font-size: 35px;
+  padding: 5px;
+}
+.title-current {
+  font-size: 35px;
+}
+.current--score {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-transform: uppercase;
+  font-size: 31px;
+  justify-content: center;
+}
+
+#total-display-1,
+#total-display-2 {
+  margin-top: 25px;
+  font-size: 2em;
+}
+
+#score-display-1,
+#score-display-2 {
+  margin-top: 25px;
+  font-size: 2em;
+}
+
+#img-show {
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  top: 25%;
+  left: 45%;
+}
+#new-game {
+  position: absolute;
+  top: 7%;
+  left: 41%;
+  cursor: pointer;
+  font-size: 1.5rem;
+  background-color: #0f9;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+#roll-dice {
+  position: absolute;
+  top: 60%;
+  left: 42%;
+  font-size: 1.5rem;
+  background-color: #0f9;
+  padding: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+#hold {
+  position: absolute;
+  top: 75%;
+  left: 44%;
+  font-size: 1.5rem;
+  background-color: #0f9;
+  padding: 10px;
+  border-radius: 20px;
+  cursor: pointer;
 }
